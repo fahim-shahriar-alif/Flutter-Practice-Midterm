@@ -25,7 +25,7 @@ class Subscription extends Service {
   @override
   String getDetails() {
     // Your code here
-    return " ${super.getDetails} , Days remained $daysRemaining , account tier $accountTier ";
+    return " ${super.getDetails()} , Days remained $daysRemaining , account tier $accountTier ";
   }
 
   // Add an isExpiringSoon() function that returns true if daysRemaining is less than or equal to 7
